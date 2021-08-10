@@ -30,3 +30,6 @@ with ThreadPoolExecutor(max_workers=2) as pool:
     pool.submit(ask_user)
 
 print(f'Two Thread total time: {time.time()-start}')
+
+if __name__ == "__main__":
+    #do stuff
